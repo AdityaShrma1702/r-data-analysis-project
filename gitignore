@@ -1,0 +1,31 @@
+# R session and workspace files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project-specific files
+.Rproj.user/
+
+# R Markdown / Quarto cache and generated folders
+*_files/
+*_cache/
+.quarto/
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets / local environment configuration
+.Renviron
+.env
+.env.*
+
+# renv package library (keep renv.lock in Git)
+renv/library/
+renv/staging/
